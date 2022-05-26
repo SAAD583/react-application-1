@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-application-1/static/css/main.32f87028.css",
+    "main.js": "/react-application-1/static/js/main.1eec171c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react-application-1/static/js/787.28cb0dcd.chunk.js",
+    "static/media/item-7.jpeg": "/react-application-1/static/media/item-7.2b2d85320c08729e6a58.jpeg",
+    "static/media/item-8.jpeg": "/react-application-1/static/media/item-8.77daac2abe411b747cb4.jpeg",
+    "static/media/item-1.jpeg": "/react-application-1/static/media/item-1.59f884831772e6397275.jpeg",
+    "static/media/item-6.jpeg": "/react-application-1/static/media/item-6.71751fefb2ee55699e44.jpeg",
+    "static/media/item-5.jpeg": "/react-application-1/static/media/item-5.39ce038c4ceb093d7c66.jpeg",
+    "static/media/item-9.jpeg": "/react-application-1/static/media/item-9.46d925888a7d2fa971d6.jpeg",
+    "index.html": "/react-application-1/index.html",
+    "main.32f87028.css.map": "/react-application-1/static/css/main.32f87028.css.map",
+    "main.1eec171c.js.map": "/react-application-1/static/js/main.1eec171c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react-application-1/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32f87028.css",
+    "static/js/main.1eec171c.js"
+  ]
+}
