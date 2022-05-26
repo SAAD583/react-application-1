@@ -1,0 +1,478 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+            /* COLOR GENERATOR */
+
+/*
+body {
+    background-color: #f1f1f1;
+}
+
+.colors-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colors-container div {
+    width: 20%;
+    padding: 10px;
+    height: 150px;
+}
+
+.error {
+    outline: 1px solid red;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 1px;
+}
+
+form button {
+    background-color: rgb(77, 176, 209);
+    padding: 7px;
+    color: white;
+    border: none
+}
+
+form input {
+    outline: 1px solid rgb(77, 176, 209);
+    padding: 6px;
+    border: none
+}
+*/
+        /* COLOR GENERATOR */
+
+
+
+
+
+
+
+
+
+        /* NavBar */ 
+
+body {
+    background-color: #f1f5f8;
+}
+
+.nav-content-container {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    background-color: #222;
+    color: #f1f1f1;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li {
+    margin: 0 7px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-button {
+    display: none;
+}
+
+.icons-container li svg {
+    vertical-align: bottom;
+}
+
+.icons-container li {
+    margin: 5px;
+}
+
+@media screen and (min-width: 801px) {
+    .links-container {
+        height: auto !important;
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    .nav-content-container {
+        display: block;
+        padding: 15px;
+    }
+    .icons-container {
+        display: none;
+    }
+    .toggle-button {
+        display: block;
+        background-color: inherit;
+        border: none;
+        outline: none;
+    }
+    .links-container {
+        transition: all ease 1s;
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+    .links-container ul {
+        padding: 10px 0 0;
+    }
+    ul {
+        display: block;
+    }
+}
+
+
+        /* NavBar */ 
+
+
+
+        /* Menu */
+
+.menu-title {
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.menu-title h2 {
+    position: relative;
+}
+
+.menu-title h2::after {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: " ";
+    width: 100px;
+    height: 3px;
+    background-color: #c59d5f;
+}
+
+.buttons-container {
+    max-width: 300px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons-container button {
+    padding: 7px;
+    border: 2px outset #c59d5f;
+    background-color: inherit;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all ease-in-out 0.3s;
+}
+
+.buttons-container button:hover {
+    background-color: #c59d5f;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-items-container, .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-items-container {
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 40%;
+    margin: 20px 0;
+}
+
+.menu-item img{
+    display: block;
+    object-fit: cover;
+    width: 220px;
+    height: 150px;
+    border: 5px outset #c59d5f;
+    border-radius: 10px;
+    /* Get rid of the white space between the image and its borders */
+    background-color: #c59d5f;
+}
+
+.menu-item-info-container {
+    width: 350px;
+    margin: 0 20px;
+}
+
+.menu-item-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px dotted #222;
+}
+
+.menu-item-title div {
+    color: #c59d5f;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .menu-item {
+        width: 90%;
+        flex-direction: column;
+    }
+    .menu-item img {
+        width: 100%;
+        height: 200px;
+    }
+    .menu-item-info-container {
+        margin: 10px 0 20px 0;
+        width: 100%;
+    }
+}
+
+
+
+                /* Reviews List */
+
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    width: 410px;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 2px rgba(210,210,210,0.77);
+}
+
+.reviews-img-container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.reviews-img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    object-fit: cover;
+}
+
+.reviews-img-container::before {
+    content: " ";
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(99, 196, 252);
+}
+
+.reviews-img-container span {
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    background-color: rgb(99, 196, 252);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    color: #222;
+}
+
+.reviews-info-container h3 {
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.reviews-info-container div {
+    color: rgb(99, 196, 252);
+    font-weight: bold;
+}
+
+.reviews-info-container p {
+    line-height: 1.3;
+}
+
+.next-prev-buttons {
+    margin: 10px 0;
+}
+
+.next-prev-buttons button {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-size: 20px;
+}
+
+.next-prev-buttons button:hover {
+    cursor: pointer;
+}
+
+.random-button-container button {
+    padding: 7px;
+    border: 1px solid rgb(130, 205, 248);
+    color: #222;
+    border-radius: 10px;
+    background-color: inherit;
+    margin: 5px;
+    transition: all ease-in-out 0.2s;
+}
+
+.random-button-container button:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(130, 205, 248);
+}
+
+@media screen and (max-width: 800px) {
+    .reviews-container {
+        width: 90%;
+    }
+
+    .reviews-img-container {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Todo List */
+
+
+/* body {
+    background-color: #222;
+}
+
+.todolist-container {
+    color: #f1f1f1;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    padding: 10px;
+    transform: translateX(-50%);
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.todolist-container input {
+    color: #f1f1f1;
+    border: none;
+    margin: 15px 0;
+    width: 400px;
+    font-size: 14px;
+    outline: none;
+    background-color: inherit;
+    margin-right: 10px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+button {
+    border: 1px solid #f1f1f1;
+    background-color: inherit;
+    border-radius: 5px;
+    padding: 3px;
+    outline: none;
+    color: #f1f1f1;
+}
+
+.todolist-item button {
+    border: none;
+    font-size: 15px;
+    margin: 0 2px;
+    padding: 0px;
+}
+
+
+.todolist-item, .todolist-container form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todolist-item {
+    padding: 5px;
+}
+
+.icon {
+    vertical-align: bottom;
+}
+
+.alert {
+    background-color: rgb(179, 31, 31);
+    margin: 15px 0;
+    padding: 3px;
+    color: #222;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .todolist-container input {
+        width: 85%;
+    }
+    .todolist-container {
+        width: 90%;
+    }
+}
+
+.checked {
+    text-decoration: line-through;
+    font-style: italic;
+} */
