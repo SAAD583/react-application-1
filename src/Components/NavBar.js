@@ -38,7 +38,7 @@ export const NavBar = () => {
                     <AiOutlineMenu style={{fontSize: "20px",
                      fontWeight: "bold",
                      verticalAlign: "bottom",
-                     transition: "all ease 1s",
+                     transition: "all ease .5s",
                      transform: isClicked? "rotate(-90deg)" : "rotate(0deg)",
                      color: useLocation().pathname == "/menu"? "#c59d5f" : "rgb(99, 196, 252)"}}
                      />

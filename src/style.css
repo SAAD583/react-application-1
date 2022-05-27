@@ -82,7 +82,7 @@ ul li {
         outline: none;
     }
     .links-container {
-        transition: all ease 1s;
+        transition: all ease .5s;
         display: block;
         height: 0;
         overflow: hidden;
@@ -132,7 +132,7 @@ ul li {
     background-color: inherit;
     border-radius: 10px;
     font-weight: bold;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.2s;
 }
 
 .buttons-container button:hover {
@@ -315,8 +315,8 @@ ul li {
     }
 
     .reviews-img-container {
-        width: 120px;
-        height: 120px;
+        width: 135px;
+        height: 135px;
     }
     .reviews-img-container span {
         width: 30px;
