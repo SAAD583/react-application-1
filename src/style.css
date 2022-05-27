@@ -1,63 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
-            /* COLOR GENERATOR */
-
-/*
-body {
-    background-color: #f1f1f1;
-}
-
-.colors-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.colors-container div {
-    width: 20%;
-    padding: 10px;
-    height: 150px;
-}
-
-.error {
-    outline: 1px solid red;
-}
-
-form {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 30px 1px;
-}
-
-form button {
-    background-color: rgb(77, 176, 209);
-    padding: 7px;
-    color: white;
-    border: none
-}
-
-form input {
-    outline: 1px solid rgb(77, 176, 209);
-    padding: 6px;
-    border: none
-}
-*/
-        /* COLOR GENERATOR */
-
-
-
-
-
-
-
-
 
         /* NavBar */ 
 
@@ -149,10 +94,6 @@ ul li {
         display: block;
     }
 }
-
-
-        /* NavBar */ 
-
 
 
         /* Menu */
@@ -259,8 +200,6 @@ ul li {
         width: 100%;
     }
 }
-
-
 
                 /* Reviews List */
 
@@ -378,106 +317,3 @@ ul li {
         font-size: 12px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /* Todo List */
-
-
-/* body {
-    background-color: #222;
-}
-
-.todolist-container {
-    color: #f1f1f1;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    padding: 10px;
-    transform: translateX(-50%);
-    border: 2px solid #f1f1f1;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.todolist-container input {
-    color: #f1f1f1;
-    border: none;
-    margin: 15px 0;
-    width: 400px;
-    font-size: 14px;
-    outline: none;
-    background-color: inherit;
-    margin-right: 10px;
-    border-bottom: 2px solid #f1f1f1;
-}
-
-button {
-    border: 1px solid #f1f1f1;
-    background-color: inherit;
-    border-radius: 5px;
-    padding: 3px;
-    outline: none;
-    color: #f1f1f1;
-}
-
-.todolist-item button {
-    border: none;
-    font-size: 15px;
-    margin: 0 2px;
-    padding: 0px;
-}
-
-
-.todolist-item, .todolist-container form {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.todolist-item {
-    padding: 5px;
-}
-
-.icon {
-    vertical-align: bottom;
-}
-
-.alert {
-    background-color: rgb(179, 31, 31);
-    margin: 15px 0;
-    padding: 3px;
-    color: #222;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-@media screen and (max-width: 500px) {
-    .todolist-container input {
-        width: 85%;
-    }
-    .todolist-container {
-        width: 90%;
-    }
-}
-
-.checked {
-    text-decoration: line-through;
-    font-style: italic;
-} */
