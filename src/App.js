@@ -10,9 +10,6 @@ export default function() {
     return (
         <BrowserRouter>
             <NavBar />
-            <h1>
-                Hello
-            </h1>
             <Routes>
                 <Route path='/reviews' element={<Reviews/>} />
                 <Route path='/menu' element={<Menu/>} />

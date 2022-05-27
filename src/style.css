@@ -168,7 +168,7 @@ ul li {
 
 .menu-title h2::after {
     position: absolute;
-    top: 30px;
+    top: 35px;
     left: 50%;
     transform: translateX(-50%);
     content: " ";
@@ -182,11 +182,11 @@ ul li {
     margin: 20px auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .buttons-container button {
-    padding: 7px;
+    padding: 5px;
     border: 2px outset #c59d5f;
     background-color: inherit;
     border-radius: 10px;
@@ -371,6 +371,11 @@ ul li {
     .reviews-img-container {
         width: 120px;
         height: 120px;
+    }
+    .reviews-img-container span {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
     }
 }
 

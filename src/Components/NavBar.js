@@ -13,7 +13,6 @@ export const NavBar = () => {
 
     useEffect(()=> {
         const height = pageLinks.current.getBoundingClientRect().height
-        console.log(height);
         if (isClicked) {
             linksContainer.current.style.height = `${height}px`
         } else {
@@ -29,9 +28,10 @@ export const NavBar = () => {
             <h3>
                 <span
                     style={{
-                        color: useLocation().pathname == "/reviews"? "rgb(99, 196, 252)" : "#c59d5f"
-                    }}
-                >Saad_Shahrour</span> 
+                        color: useLocation().pathname == "/menu"? "#c59d5f" : "rgb(99, 196, 252)"
+                    }}>
+                        Saad_Shahrour
+                    </span> 
             </h3>
             <button className='toggle-button'
              onClick={() => setIsClicked(prevValue => !prevValue)}>
@@ -40,7 +40,7 @@ export const NavBar = () => {
                      verticalAlign: "bottom",
                      transition: "all ease 1s",
                      transform: isClicked? "rotate(-90deg)" : "rotate(0deg)",
-                     color: "rgb(130, 205, 248)"}}
+                     color: useLocation().pathname == "/menu"? "#c59d5f" : "rgb(99, 196, 252)"}}
                      />
             </button>
         </div>
