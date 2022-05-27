@@ -2,7 +2,6 @@ import React from 'react'
 import reviewsList from '../reviewsList'
 import {FcPrevious, FcNext} from "react-icons/fc"
 import {FaQuoteLeft} from "react-icons/fa"
-import { useLocation } from 'react-router-dom'
 
 export const Reviews = () => {
 
@@ -32,9 +31,6 @@ export const Reviews = () => {
       console.log(Math.random());
       setCounter(generatedRanNum)
     }
-
-      const location = useLocation()
-      console.log(location.pathname);
     
   return (
     <div className='reviews-container'>
