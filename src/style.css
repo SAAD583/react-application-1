@@ -272,7 +272,7 @@ ul li {
 }
 
 .next-prev-buttons {
-    margin: 10px 0;
+    margin: 10px;
 }
 
 .next-prev-buttons button {
@@ -280,6 +280,13 @@ ul li {
     outline: none;
     background-color: inherit;
     font-size: 20px;
+    margin: 0 3px;
+    opacity: .5;
+    transition: all ease-in-out .2s;
+}
+
+.next-prev-buttons button:hover {
+    opacity: 1;
 }
 
 .next-prev-buttons button:hover {
@@ -288,7 +295,7 @@ ul li {
 
 .random-button-container button {
     padding: 7px;
-    border: 1px solid rgb(130, 205, 248);
+    border: 1px solid rgb(99, 196, 252);
     color: #222;
     border-radius: 10px;
     background-color: inherit;
@@ -299,7 +306,7 @@ ul li {
 .random-button-container button:hover {
     color: white;
     cursor: pointer;
-    background-color: rgb(130, 205, 248);
+    background-color: rgb(99, 196, 252);
 }
 
 @media screen and (max-width: 800px) {
